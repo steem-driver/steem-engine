@@ -2,7 +2,7 @@ Config = {
 	MAINTENANCE_MODE: false,
 	CHAIN_ID: 'ssc-mainnet1',
 	RPC_URL: 'https://api.steem-engine.com/rpc',
-	ACCOUNTS_API_URL: 'https://anyx.io',
+	ACCOUNTS_API_URL: 'https://api.steem-engine.com/accounts',
 	CONVERTER_API: 'https://converter-api.steem-engine.com/api',
 	SCOT_API: 'https://scot-api.steem-engine.com/',
 	NATIVE_TOKEN: 'ENG',
