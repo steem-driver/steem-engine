@@ -6,6 +6,7 @@ Config = {
 	CONVERTER_API: 'https://converter-api.steem-engine.com/api',
 	SCOT_API: 'https://scot-api.steem-engine.com/',
 	NODE_API: 'https://node-api.steem-engine.com/v1/',
+	STEEMCONNECT_URL: 'https://steemconnect.com',
 	NATIVE_TOKEN: 'ENG',
 	STEEMP_ACCOUNT: 'steem-peg',
 	DISABLED_TOKENS: ['BTC', 'STEEM', 'SBD', 'BCC', 'XAP'],
