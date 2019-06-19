@@ -9,7 +9,7 @@ Config = {
 	STEEMCONNECT_URL: 'https://steemconnectcn.herokuapp.com',
 	NATIVE_TOKEN: 'ENG',
 	STEEMP_ACCOUNT: 'steem-peg',
-	DISABLED_TOKENS: ['BTC', 'STEEM', 'SBD', 'BCC', 'XAP'],
+	DISABLED_TOKENS: ['BTC', 'LTC', 'STEEM', 'SBD', 'BCC', 'XAP', 'XRP', 'GOLOS', 'DISNEY', 'AMAZON', 'VOICE', 'ETH', 'EOS'],
 	PEGGED_TOKEN: 'STEEMP',
 	PEGGED_TOKENS: [
 		{
@@ -32,6 +32,11 @@ Config = {
 			symbol: 'EOS',
 			pegged_token_symbol: 'EOSP'
 		}, 
+		{
+			name: 'Crypto Peso',
+			symbol: 'PSO',
+			pegged_token_symbol: 'PSOP'
+		},
 		{
 			name: 'Bitcoin Cash',
 			symbol: 'BCH',
