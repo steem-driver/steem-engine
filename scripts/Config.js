@@ -9,7 +9,7 @@ Config = {
 	STEEMCONNECT_URL: 'https://steemconnectcn.herokuapp.com',
 	NATIVE_TOKEN: 'ENG',
 	STEEMP_ACCOUNT: 'steem-peg',
-	DISABLED_TOKENS: ['BTC', 'LTC', 'STEEM', 'SBD', 'BCC', 'XAP', 'XRP', 'GOLOS', 'DISNEY', 'AMAZON', 'VOICE', 'ETH', 'EOS', 'VRT'],
+	DISABLED_TOKENS: ['BTC', 'LTC', 'STEEM', 'SBD', 'BCC', 'XAP', 'XRP', 'GOLOS', 'DISNEY', 'AMAZON', 'VOICE', 'ETH', 'EOS'],
 	PEGGED_TOKEN: 'STEEMP',
 	PEGGED_TOKENS: [
 		{
@@ -32,6 +32,36 @@ Config = {
 			symbol: 'EOS',
 			pegged_token_symbol: 'EOSP'
 		}, 
+		{
+			name: 'SWIFT',
+			symbol: 'SWIFT',
+			pegged_token_symbol: 'SWIFTP'
+		}, 
+		{
+			name: 'Weku',
+			symbol: 'WEKU',
+			pegged_token_symbol: 'WEKUP'
+		}, 
+		{
+			name: 'BitShares',
+			symbol: 'BTS',
+			pegged_token_symbol: 'BTSP'
+		},
+		{
+			name: 'BitShares USD',
+			symbol: 'BTSUSD',
+			pegged_token_symbol: 'BTSUSDP'
+		},
+		{
+			name: 'BitShares CNY',
+			symbol: 'BTSCNY',
+			pegged_token_symbol: 'BTSCNYP'
+		},
+		{
+			name: 'BitShares BTC Bridge',
+			symbol: 'BTSBRIDGE.BTC',
+			pegged_token_symbol: 'BRIDGEBTCP'
+		},
 		{
 			name: 'Crypto Peso',
 			symbol: 'PSO',
