@@ -1303,8 +1303,8 @@ SE = {
       "contractPayload": {
         "symbol": symbol,
         "to": to,
-				"quantity": quantity + '',
-				"memo": memo
+		"quantity": quantity + '',
+		"memo": memo
       }
     };
 
@@ -1315,7 +1315,7 @@ SE = {
         if(response.success && response.result) {
 					SE.CheckTransaction(response.result.id, 3, tx => {
             if(tx.success)
-              SE.ShowToast(true, quantity + ' ' + symbol + ' Tokens sent to @' + to )
+              SE.ShowToast(true, quantity + ' ' + symbol + ' Tokens sent to @' + to)
             else
               SE.ShowToast(false, 'An error occurred submitting the transfer: ' + tx.error)
 
@@ -1433,6 +1433,7 @@ SE = {
 			"contractAction": "withdraw",
 			"contractPayload": { 
 				"quantity": (amount).toFixedNoRounding(3)
+
 			}
 		};
 

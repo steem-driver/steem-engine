@@ -8,7 +8,7 @@ Config = {
 	NODE_API: 'https://node-api.steem-engine.com/v1/',
 	NATIVE_TOKEN: 'SSC',
 	STEEMP_ACCOUNT: 'steemsc',
-	DISABLED_TOKENS: ['BTC', 'LTC', 'STEEM', 'SBD', 'BCC', 'XAP', 'XRP', 'GOLOS', 'DISNEY', 'AMAZON', 'VOICE', 'ETH', 'EOS'],
+	DISABLED_TOKENS: ['BTC', 'LTC', 'STEEM', 'SBD', 'BCC', 'XAP', 'XRP', 'GOLOS', 'DISNEY', 'AMAZON', 'VOICE', 'ETH', 'EOS', 'TIME'],
 	PEGGED_TOKEN: 'STEEMP',
 	PEGGED_TOKENS: [
 		{
@@ -75,6 +75,11 @@ Config = {
 			name: 'Dogecoin',
 			symbol: 'DOGE',
 			pegged_token_symbol: 'DOGEP'
+		},
+		{
+			name: 'Sand',
+			symbol: 'SAND',
+			pegged_token_symbol: 'EOSSAND'
 		}
 	]
 }
