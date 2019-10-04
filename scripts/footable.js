@@ -4703,7 +4703,7 @@
 	F.Defaults.prototype.filtering = {
 		enabled: false,
 		filters: [],
-		delay: 1200,
+		delay: 500,
 		min: 1,
 		space: 'AND',
 		placeholder: 'Search',
