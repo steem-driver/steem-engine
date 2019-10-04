@@ -1559,7 +1559,7 @@ SE = {
 				if(callback)
 					callback(Object.assign(result, { error: error, success: !error }));
 			} else if(retries > 0)
-				setTimeout(() => SE.CheckTransaction(trx_id, retries - 1, callback), 1000);
+				setTimeout(() => SE.CheckTransaction(trx_id, retries - 1, callback), 5000);
 			else if(callback)
 				callback({ success: false, error: 'Transaction not found.' });
 		});
