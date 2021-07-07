@@ -1,16 +1,22 @@
 Config = {
 	MAINTENANCE_MODE: false,
-	CHAIN_ID: 'ssc-00000000000000000002',
-	RPC_URL: 'https://testapi.steem-engine.com/',
-	ACCOUNTS_API_URL: 'https://testaccounts.steem-engine.com',
+	CHAIN_ID: 'ssc-mainnet1',
+	RPC_URL: 'https://api.steem-engine.com/rpc',
+	ACCOUNTS_API_URL: 'https://api.steem-engine.com/accounts',
 	CONVERTER_API: 'https://converter-api.steem-engine.com/api',
 	SCOT_API: 'https://scot-api.steem-engine.com/',
 	NODE_API: 'https://node-api.steem-engine.com/v1/',
-	NATIVE_TOKEN: 'SSC',
-	STEEMP_ACCOUNT: 'steemsc',
+	STEEMCONNECT_URL: 'https://steemconnectcn.herokuapp.com',
+	NATIVE_TOKEN: 'ENG',
+	STEEMP_ACCOUNT: 'steem-peg',
 	DISABLED_TOKENS: ['BTC', 'LTC', 'STEEM', 'SBD', 'BCC', 'XAP', 'XRP', 'GOLOS', 'DISNEY', 'AMAZON', 'VOICE', 'ETH', 'EOS', 'TIME'],
 	PEGGED_TOKEN: 'STEEMP',
 	PEGGED_TOKENS: [
+		{
+			name: 'Steem',
+			symbol: 'STEEM',
+			pegged_token_symbol: 'STEEMP'
+		}, 
 		{
 			name: 'Bitcoin',
 			symbol: 'BTC',
@@ -25,9 +31,9 @@ Config = {
 			name: 'EOS',
 			symbol: 'EOS',
 			pegged_token_symbol: 'EOSP'
-		},
+		}, 
 		{
-			name: 'Swift Cash',
+			name: 'SWIFT',
 			symbol: 'SWIFT',
 			pegged_token_symbol: 'SWIFTP'
 		}, 
